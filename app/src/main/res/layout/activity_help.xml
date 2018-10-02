@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="235dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_round_button"
+            android:text="Need Help?"
+            android:onClick="onHelpClick"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/find"
+            android:layout_marginTop="20dp"
+            android:layout_width="235dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_round_button_2"
+            android:text="Rescue People"
+            android:onClick="onFindClick"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "803156685145",
+    "firebase_url": "https://help-kerala-fbf7a.firebaseio.com",
+    "project_id": "help-kerala-fbf7a",
+    "storage_bucket": "help-kerala-fbf7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803156685145:android:1feb555af9ef7c04",
+        "android_client_info": {
+          "package_name": "com.vitvellore.vishistvarugeese.helpkerala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803156685145-n9b53q3a37kj3n9uj0qd0oprdr4b282n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqTpnGxcKD5PIZXNkxZIAwaxsDX4CltE8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
